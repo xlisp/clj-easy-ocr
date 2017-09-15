@@ -1,6 +1,7 @@
-(ns clj-easy-ocr.core)
+(ns clj-easy-ocr.core
+  (:import
+   (java.io FileInputStream)
+   (cn.easyproject.easyocr EasyOCR)))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+;; (let [e (EasyOCR.)] (.discern e "demo_eurotext.png") )
+;; => "The (quick) [br0Wn] {f0x} jumps! ... "
