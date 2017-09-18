@@ -41,6 +41,14 @@ clj-easy-ocr.core=> (get-img-string "ch333.png")
 
 clj-easy-ocr.core=>
 ```
+* 全屏爱奇艺李小龙传奇: cmd-shift-4 截图识别率很高
+```clojure
+clj-easy-ocr.core=> (get-img-string "lixiaolong_jietu1.png")
+
+"  \n\n′ ′ ` _ ` 二 钗赁′ ′ ”i_l工Y_夏奇\n/′ 一\n`…`蓁蟹〕_蠢\n\n\\ 〖翼`\n\n\\_、′\n\n来快点 我要给他们一个惊喜"
+
+clj-easy-ocr.core=>
+```
 ## License
 
 Copyright © 2017 FIXME
