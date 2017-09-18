@@ -33,6 +33,14 @@ clj-easy-ocr.core=> (print (get-img-string "ch123.png"))
 楚当日涨幅上和跌幅上有那些英雄】 之间有没有板块连动效应】 然后检查_下自己的持仓和这些老兄有没有nil
 clj-easy-ocr.core=>
 ```
+* 用于视频截图的文字识别
+```clojure
+clj-easy-ocr.core=> (get-img-string "ch333.png")
+
+"〇 WWWquchom/V_吓 9「「j6寸 厂eW′htm\\?me:2OO8_a|dbd\n\n \n\n〉 鼾 04:23/45:55 高清 〔I` 匡] 尺】\n\n弹幕 设置 登录或注册后来_发吧!\n\n李小龙传奇第43集"
+
+clj-easy-ocr.core=>
+```
 ## License
 
 Copyright © 2017 FIXME
